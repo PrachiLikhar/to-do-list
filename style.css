@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image:url("background.jpg");
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #4c083f; 
+  margin: 30px auto;
+  width: 30vw;
+  padding: 20px;
+  border:5px solid #bc466d;
+  border-radius: 10px;
+ 
+}
+
+h1 {
+  color: #ab6c81;
+}
+
+.input-container {
+  display: flex;
+  margin-top: 20px;
+  width: 400px;
+  height:50px;
+  /* background-color: #84204f; */
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #84204f;
+  border-radius: 5px;
+}
+
+button {
+  background-color: rgb(125, 8, 63);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(125, 8, 63);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: rgb(125, 8, 63);
+  border-radius: 5px;
+color:#ab6c81;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li:hover{
+  background-color: #ab6c81;
+  color: aliceblue;
+}
+
+.delete {
+  background-color:#ab6c81 ;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+.delete:hover {
+  background-color:rgb(125, 8, 63) ;
+  color: aliceblue ;
+}
